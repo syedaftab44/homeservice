@@ -52,34 +52,7 @@ nav{
   nav .nav-items li a:hover{
     color: #ff6000;
   }
-  /* nav form{
-    display: flex;
-    height: 40px;
-    padding: 2px;
-    background: #1e232b;
-    min-width: 18%!important;
-    border-radius: 2px;
-    border: 1px solid rgba(155,155,155,0.2);
-  } */
-  /* nav form .search-data{
-    width: 100%;
-    height: 100%;
-    padding: 0 10px;
-    color: #000;
-    font-size: 17px;
-    border: none;
-    font-weight: 500;
-    background: none;
-  } */
-  /* nav form button{
-    padding: 0 15px;
-    color: #000;
-    font-size: 17px;
-    background: #ff6000;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-  } */
+
   nav form button:hover{
     background: #ff6000;
   }
@@ -134,44 +107,7 @@ nav{
     nav .nav-items li a{
       font-size: 20px;
     }
-    /* nav form{
-      position: absolute;
-      top: 80px;
-      right: 50px;
-      opacity: 0;
-      pointer-events: none;
-      transition: top 0.3s ease, opacity 0.1s ease;
-    } */
-    /* nav form.active{
-      top: 95px;
-      opacity: 1;
-      pointer-events: auto;
-    } */
-    /* nav form:before{
-      position: absolute;
-      content: "";
-      top: -13px;
-      right: 0px;
-      width: 0;
-      height: 0;
-      z-index: -1;
-      border: 10px solid transparent;
-      border-bottom-color: #1e232b;
-      margin: -20px 0 0;
-    } */
-    /* nav form:after{
-      position: absolute;
-      content: '';
-      height: 60px;
-      padding: 2px;
-      background: #1e232b;
-      border-radius: 2px;
-      min-width: calc(100% + 20px);
-      z-index: -2;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    } */
+ 
     nav .menu-icon{
       display: block;
     }
@@ -444,6 +380,11 @@ color: #333;
     nav .logo>img{
       height: 20vw;
     }
+ #main{
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+ }
 
     
     #page3{
@@ -457,25 +398,34 @@ color: #333;
   align-items: center;
 
 }
+
 .box h5 {
   position: absolute;
-  font-size: 2vw;
+  font-size: 2.5vw;
   margin-left: 300px;
-  width: 25vw;
+  width: 30vw;
   height: 15vw;
   margin-bottom: 60px;
 }
 
+#p3cl1 {
+display: flex;
+align-items: center;
+}
 #p3cl1 h1{
-font-size: 10vw;
+font-size: 7vw;
 white-space: nowrap;
 text-align: center;
 }
 #p3cl1 h3{
   width: 90vw;
   margin-top: 10vw;
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
+}
+#p3cl2-top{
+   
+  display: flex;
 }
 #booking{
   position: absolute;
@@ -509,14 +459,14 @@ text-align: center;
 button{
   position: relative;
   bottom: 80vw;
-  left: 40vw;
-  padding: 4vw 35vw;
+  left: 20vw;
+  padding: 2vw 15vw;
   font-size: 20px;
 
 }
 #p3left img{
   position: relative;
-  bottom: 120vw;
+  bottom: 112vw;
   right: 30vw;
   height: 50vw;
 }
